@@ -7,7 +7,7 @@ format shorte
 set(0, 'DefaultFigureWindowStyle', 'docked')
 global C
 global Vx Vy x y Fx Fy AtomSpacing
-global Phi nAtoms time Mass0 Mass1 Pty0in Pty1in
+global Phi nAtoms time Mass0 Mass1 Mass2 Pty0in Pty1in
 global LJEpsilon LJSigma Phi0 AtomType
 global MinX MaxX MinY MaxY PhiTot KETot
 global nAtoms0 nAtoms1 T T0 T1 MarkerSize
@@ -41,12 +41,12 @@ ScaleF = 0;
 PlotPosOnly = 0;
 
 % Simulation initiallization
-InitThree
+% InitThree
 % InitBlock
 % InitCirc
 % InitBlock0
 % InitBlock0FD
-% InitVStream
+InitVStream
 % InitHCP
 % InitHCPBlob
 % InitVStreamHCP
